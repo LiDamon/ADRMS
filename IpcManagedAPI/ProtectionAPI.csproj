@@ -16,6 +16,10 @@
     <FileAlignment>512</FileAlignment>
     <FxCopDisabled>true</FxCopDisabled>
     <CoverageDisabled>True</CoverageDisabled>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
