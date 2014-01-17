@@ -1,4 +1,10 @@
-﻿using System;
+﻿//-----------------------------------------------------------------------------
+// Created By Sghaida
+// Description:  Converters for managed code to unmanaged code string arrays handlers
+//-----------------------------------------------------------------------------
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
