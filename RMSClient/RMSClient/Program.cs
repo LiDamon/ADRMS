@@ -20,7 +20,7 @@ namespace RMSClient
 
         public static extern Int32 placeHolder();
 
-        public const string filePath = @"C:\Users\sghaida\Documents\Visual Studio 2012\Projects\RMSLib\RMSClient\RMSClient\bin\Debug";
+        public const string filePath = @"D:\rms-data\";
 
         static void Main(string[] args)
         {
@@ -29,14 +29,14 @@ namespace RMSClient
             SafeNativeMethods.IpcInitialize();
             
             //String inputFile = "docxFile.docx";
-            String inputFile = "ptestFile.pdf";
-            String templateLocally = "serialized_license.xml";
+            String inputFile = @"ptestFile.pdf";
+            String templateLocally = @"serialized_license.xml";
             String templateLocallyContent = File.ReadAllText(filePath + @"\" + templateLocally);
 
 
             Collection<TemplateInfo> myTemplateInfo = SafeNativeMethods.IpcGetTemplateList(null, true, true, false, true, null, null);
 
-            bool inputFileIsEncrypted = SafeFileApiNativeMethods.IpcfIsFileEncrypted(inputFile);
+            bool inputFileIsEncrypted = SafeFileApiNativeMethods.IpcfIsFileEncrypted(filePath + @"\" + inputFile);
             
             if (inputFileIsEncrypted)
             {
