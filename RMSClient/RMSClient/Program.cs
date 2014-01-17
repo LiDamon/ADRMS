@@ -30,10 +30,7 @@ namespace RMSClient
             
             //String inputFile = "docxFile.docx";
             String inputFile = @"ptestFile.pdf";
-            String templateLocally = @"serialized_license.xml";
-            String templateLocallyContent = File.ReadAllText(filePath + @"\" + templateLocally);
-
-
+           
             Collection<TemplateInfo> myTemplateInfo = SafeNativeMethods.IpcGetTemplateList(null, true, true, false, true, null, null);
 
             bool inputFileIsEncrypted = SafeFileApiNativeMethods.IpcfIsFileEncrypted(filePath + @"\" + inputFile);
@@ -73,7 +70,7 @@ namespace RMSClient
                 var encrypter = new EncryptionAndDecryption();
                 
                 encrypter.EncryptFile(owner, rights, filePath + @"\" + inputFile);
-                //  encrypter.EncryptFile(filePath + @"\" + inputFile, myTemplateInfo[0].TemplateId);
+                //encrypter.EncryptFile(filePath + @"\" + inputFile, myTemplateInfo[0].TemplateId);
 
             }//End-Else
 
