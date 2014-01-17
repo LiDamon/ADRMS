@@ -47,9 +47,7 @@ namespace CCC.RMSLib
 
             Collection<UserRights> rights = SafeNativeMethods.IpcGetSerializedLicenseUserRightsList(license, keyhandle);
 
-            File.WriteAllBytes(pathToFile + @"\license_rights.xml", license);
-
-            SafeFileApiNativeMethods.IpcfEncryptFile(fileName, licenseHandle, SafeFileApiNativeMethods.EncryptFlags.IPCF_EF_FLAG_DEFAULT, true, false, true, null, pathToFile);
+            SafeFileApiNativeMethods.IpcfEncryptFile(filePath, licenseHandle, SafeFileApiNativeMethods.EncryptFlags.IPCF_EF_FLAG_DEFAULT, true, false, true, null, pathToFile);
         }
 
         public void EncryptFile(string filePath, string templateId)
@@ -69,9 +67,7 @@ namespace CCC.RMSLib
 
             Collection<UserRights> rights = SafeNativeMethods.IpcGetSerializedLicenseUserRightsList(license, keyhandle);
 
-            File.WriteAllBytes(pathToFile + @"\license_template.xml", license);
-
-            SafeFileApiNativeMethods.IpcfEncryptFile(fileName, licenseHandle, SafeFileApiNativeMethods.EncryptFlags.IPCF_EF_FLAG_DEFAULT, false, true, true, null, ".");
+            SafeFileApiNativeMethods.IpcfEncryptFile(filePath, licenseHandle, SafeFileApiNativeMethods.EncryptFlags.IPCF_EF_FLAG_DEFAULT, false, true, true, null, pathToFile);
         }
 
     }
