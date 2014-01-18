@@ -17,61 +17,76 @@ namespace RMSClient
 {
     class Program
     {
-        [DllImport("IpcManagedAPI.dll")]
+        //[DllImport("IpcManagedAPI.dll")]
 
-        public static extern Int32 placeHolder();
+        //public static extern Int32 placeHolder();
 
-        public const string filePath = @"D:\rms-data\";
+        //public const string filePath = @"D:\rms-data\";
 
         static void Main(string[] args)
         {
-            Console.Clear();
-            Console.WriteLine("* Start of Transmission");
+        //    Console.Clear();
+        //    Console.WriteLine("* Start of Transmission");
             
-            //String inputFile = "docxFile.docx";
-            String inputFile = @"ptestFile.pdf";
+        //    //String inputFile = "docxFile.docx";
+        //    String inputFile = @"ptestFile.pdf";
 
-            var encryptor = new EncryptionAndDecryption();
+        //    var encryptor = new EncryptionAndDecryption();
 
-            //Collection<TemplateInfo> myTemplateInfo = encryptor.GetTemplatesInfo();
+        //    //Collection<TemplateInfo> myTemplateInfo = encryptor.GetTemplatesInfo();
 
-            bool inputFileIsEncrypted =encryptor.IsEncrypted(filePath + @"\" + inputFile);
+        //    bool inputFileIsEncrypted =encryptor.IsEncrypted(filePath + @"\" + inputFile);
             
-            if (inputFileIsEncrypted)
-            {
-                Console.WriteLine("** DECRYPT: File " + inputFile + " is encrypted");
+        //    if (inputFileIsEncrypted)
+        //    {
+        //        Console.WriteLine("** DECRYPT: File " + inputFile + " is encrypted");
 
-                encryptor.DecryptFile(filePath + @"\" + inputFile);
-            }
-            else
-            {
-                Console.WriteLine("** File " + inputFile + " is not encrypted");
+        //        encryptor.DecryptFile(filePath + @"\" + inputFile);
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("** File " + inputFile + " is not encrypted");
 
-                string owner = "sghaida@ccc.gr";
-                string user = "aalhour@ccc.gr";
+        //        string owner = "sghaida@ccc.gr";
+        //        string user = "aalhour@ccc.gr";
 
-                var rights = new Collection<UserRights>();
+        //        var rights = new Collection<UserRights>();
 
-                UserRights owner_rights = encryptor.SetUserRights(UserIdType.Email, owner, new Collection<string>() 
-                {
-                    CommonRights.OwnerRight
-                });
+        //        UserRights owner_rights = encryptor.SetUserRights(UserIdType.Email, owner, new Collection<string>() 
+        //        {
+        //            CommonRights.OwnerRight
+        //        });
 
-                UserRights user_rights = encryptor.SetUserRights(UserIdType.Email, user, new Collection<string>() 
-                {
-                    CommonRights.ViewRightsDataRight,
-                    CommonRights.ViewRight,
-                    CommonRights.PrintRight,
-                    CommonRights.ForwardRight
-                });
+        //        UserRights user_rights = encryptor.SetUserRights(UserIdType.Email, user, new Collection<string>() 
+        //        {
+        //            CommonRights.ViewRightsDataRight,
+        //            CommonRights.ViewRight,
+        //            CommonRights.PrintRight,
+        //            CommonRights.ForwardRight
+        //        });
                 
-                rights.Add(owner_rights);
-                rights.Add(user_rights);
+        //        rights.Add(owner_rights);
+        //        rights.Add(user_rights);
 
-                encryptor.EncryptFile(owner, rights, filePath + @"\" + inputFile);
+              //encryptor.EncryptFile(owner, rights, filePath + @"\" + inputFile);
                 //encryptor.EncryptFile(filePath + @"\" + inputFile, myTemplateInfo[0].TemplateId);
 
-            }//End-Else
+        //    }//End-Else
+
+            var options = new Options();
+
+            if (CommandLine.Parser.Default.ParseArguments(args, options)) 
+            {
+                if (options.action.ToLower() == "protect" || options.action.ToLower() == "unprotect")
+                {
+                    Console.WriteLine("Action: {0} File", options.action);
+                }
+                else 
+                {
+                    Console.WriteLine(options.GetUsage());
+                }
+                
+            }
 
         }//End-Main
 
