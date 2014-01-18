@@ -21,6 +21,21 @@ namespace CCC.RMSLib
            SafeFileApiNativeMethods.IpcfDecryptFile(filePath, SafeFileApiNativeMethods.DecryptFlags.IPCF_DF_FLAG_DEFAULT, true, false, true, null);
         }
 
+        public Collection<TemplateInfo> GetTemplatesInfo() 
+        {
+            return SafeNativeMethods.IpcGetTemplateList(null, true, true, false, true, null, null);
+        }
+
+        public bool IsEncrypted(string filePath) 
+        {
+            return SafeFileApiNativeMethods.IpcfIsFileEncrypted(filePath);
+        }
+
+        public UserRights SetUserRights(UserIdType userType, string userName, Collection<string> rights) 
+        {
+            return new UserRights(userType, userName, rights);
+        }
+
 
         //Encrypt Procedure
         public void EncryptFile(string owner, Collection<UserRights> listOfRights, string filePath)
