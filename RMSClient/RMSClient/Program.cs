@@ -9,8 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Reflection;
-
 using CCC.RMSLib;
+
+using CCC;
 
 namespace RMSClient
 {
@@ -32,7 +33,7 @@ namespace RMSClient
 
             var encryptor = new EncryptionAndDecryption();
 
-            Collection<TemplateInfo> myTemplateInfo = encryptor.GetTemplatesInfo();
+            //Collection<TemplateInfo> myTemplateInfo = encryptor.GetTemplatesInfo();
 
             bool inputFileIsEncrypted =encryptor.IsEncrypted(filePath + @"\" + inputFile);
             
