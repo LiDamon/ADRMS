@@ -26,21 +26,21 @@ namespace RMSClient
         {
             Console.Clear();
             Console.WriteLine("* Start of Transmission");
-            SafeNativeMethods.IpcInitialize();
             
             //String inputFile = "docxFile.docx";
             String inputFile = @"ptestFile.pdf";
-           
-            Collection<TemplateInfo> myTemplateInfo = SafeNativeMethods.IpcGetTemplateList(null, true, true, false, true, null, null);
 
-            bool inputFileIsEncrypted = SafeFileApiNativeMethods.IpcfIsFileEncrypted(filePath + @"\" + inputFile);
+            var encryptor = new EncryptionAndDecryption();
+
+            Collection<TemplateInfo> myTemplateInfo = encryptor.GetTemplatesInfo();
+
+            bool inputFileIsEncrypted =encryptor.IsEncrypted(filePath + @"\" + inputFile);
             
             if (inputFileIsEncrypted)
             {
                 Console.WriteLine("** DECRYPT: File " + inputFile + " is encrypted");
 
-                var decrypter = new EncryptionAndDecryption();
-                decrypter.DecryptFile(filePath + @"\" + inputFile);
+                encryptor.DecryptFile(filePath + @"\" + inputFile);
             }
             else
             {
@@ -51,12 +51,12 @@ namespace RMSClient
 
                 var rights = new Collection<UserRights>();
 
-                UserRights owner_rights = new UserRights(UserIdType.Email, owner, new Collection<string>() 
+                UserRights owner_rights = encryptor.SetUserRights(UserIdType.Email, owner, new Collection<string>() 
                 {
                     CommonRights.OwnerRight
                 });
 
-                UserRights user_rights = new UserRights(UserIdType.Email, user, new Collection<string>() 
+                UserRights user_rights = encryptor.SetUserRights(UserIdType.Email, user, new Collection<string>() 
                 {
                     CommonRights.ViewRightsDataRight,
                     CommonRights.ViewRight,
@@ -67,10 +67,8 @@ namespace RMSClient
                 rights.Add(owner_rights);
                 rights.Add(user_rights);
 
-                var encrypter = new EncryptionAndDecryption();
-                
-                encrypter.EncryptFile(owner, rights, filePath + @"\" + inputFile);
-                //encrypter.EncryptFile(filePath + @"\" + inputFile, myTemplateInfo[0].TemplateId);
+                encryptor.EncryptFile(owner, rights, filePath + @"\" + inputFile);
+                //encryptor.EncryptFile(filePath + @"\" + inputFile, myTemplateInfo[0].TemplateId);
 
             }//End-Else
 
