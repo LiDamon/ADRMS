@@ -51,7 +51,6 @@
     <Compile Include="ManagedAPIClasses.cs" />
     <Compile Include="NativeAPIStructures.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserRightsHelper.cs" />
     <Compile Include="SafeFileApiNativeMethods.cs" />
     <Compile Include="SafeNativeMethods.cs" />
     <Compile Include="UnsafeFileApiNativeMethods.cs" />
