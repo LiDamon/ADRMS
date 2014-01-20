@@ -78,9 +78,11 @@ namespace CCC.RMSLib
                             commonRights.Add(right.ToUpper());
                     }
 
-                    userRightObject = new UserRights(UserIdType.Email, userRightsInfo.EmailAddress, commonRights);
-                        
-                    usersRightsCollection.Add(userRightObject);
+                    if (commonRights.Count > 0)
+                    {
+                        userRightObject = new UserRights(UserIdType.Email, userRightsInfo.EmailAddress, commonRights);
+                        usersRightsCollection.Add(userRightObject);
+                    }
                 }
             }
 
