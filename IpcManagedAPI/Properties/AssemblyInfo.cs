@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 //[assembly: AssemblyCompany("Microsoft")]
 //[assembly: AssemblyProduct("IpcManagedAPI")]
 //[assembly: AssemblyCopyright("Copyright © Microsoft 2012")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("Copyright ©  CCC 2014")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -34,3 +34,8 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 //[assembly: AssemblyVersion("1.0.0.0")]
 //[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyCompanyAttribute("Consolidated Contractors Group")]
+[assembly: AssemblyProductAttribute("IpcManagedAPI")]
+[assembly: AssemblyCopyrightAttribute("CCC")]
+[assembly: AssemblyVersionAttribute("1.0.0.0")]
+[assembly: AssemblyFileVersionAttribute("1.0.0.0")]
