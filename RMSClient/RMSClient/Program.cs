@@ -55,7 +55,7 @@ namespace RMSClient
 
                                 if (usersRightsCollection.Count > 0)
                                 {
-                                    encryptionAndDecryption.EncryptFile("aalhour@ccc.gr", usersRightsCollection, file);
+                                    encryptionAndDecryption.EncryptFile("rmsprotector@ccc.gr", usersRightsCollection, file);
                                 }
                                 else 
                                 {
