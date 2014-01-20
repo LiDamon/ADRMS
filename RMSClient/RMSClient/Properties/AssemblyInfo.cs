@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("RMSClient")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("AD RMS Command line interface for proticting Documents such as Office Documnets and PDF Documnets using Templates or Rights")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Consolidated Contractors Group")]
 [assembly: AssemblyProduct("RMSClient")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCopyright("Copyright ©  CCC 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
