@@ -24,8 +24,8 @@ namespace RMSClient
             var encryptionAndDecryption = new EncryptionAndDecryption();
             var options = new Options();
 
-            string action = options.action.ToLower();
-            string file = options.InputFile.ToLower();
+            string action = string.Empty;
+            string file = string.Empty;
             string templateName = string.Empty;
             Collection<UserRights> usersRightsCollection = new Collection<UserRights>();
             Collection<TemplateInfo> templatesInfo = encryptionAndDecryption.GetTemplatesInfo();
@@ -33,6 +33,10 @@ namespace RMSClient
 
             if (CommandLine.Parser.Default.ParseArguments(args, options)) 
             {
+                action = options.action.ToLower();
+                file = options.InputFile.ToLower();
+
+
                 if (options.action.ToLower() == "protect" || options.action.ToLower() == "unprotect")
                 {
                     Console.WriteLine();
