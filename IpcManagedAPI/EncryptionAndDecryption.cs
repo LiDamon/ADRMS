@@ -12,6 +12,7 @@ namespace CCC.RMSLib
         public EncryptionAndDecryption()
         {
             SafeNativeMethods.IpcInitialize();
+            SafeNativeMethods.IpcSetAPIMode(APIMode.Server);
         }
 
 
