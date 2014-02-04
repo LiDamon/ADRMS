@@ -12,6 +12,7 @@ using System.Runtime.InteropServices;
 using System.Net.Mime;
 
 using CCC.RMSLib;
+using System.Diagnostics;
 
 namespace RMSWS
 {
@@ -37,6 +38,16 @@ namespace RMSWS
 
         public string Protect(string ownerEmailAddress, string filePath, string templateName, string listOfRights)
         {
+
+            TraceSource ts = new TraceSource("myTraceSource");
+
+            // Writing out some events
+            ts.TraceEvent(TraceEventType.Warning, 0, "warning message");
+            ts.TraceEvent(TraceEventType.Error, 0, "error message");
+            ts.TraceEvent(TraceEventType.Information, 0, "information message");
+            ts.TraceEvent(TraceEventType.Critical, 0, "critical message");
+
+
             Collection<UserRights> userRights = new Collection<UserRights>();
             Collection<TemplateInfo> templatesInfo = cryptor.GetTemplatesInfo();
 
@@ -51,10 +62,13 @@ namespace RMSWS
                     {
                         //FileInfo fileInfo = new FileInfo(filePath);
                         cryptor.EncryptFile(ownerEmailAddress, userRights, filePath);
+
+                        ts.TraceEvent(TraceEventType.Warning, 0, "Protect: File has been processed.");
                         return "Protect: File has been processed.";
                     }
                     else
                     {
+                        ts.TraceEvent(TraceEventType.Warning, 0, "Protect: Please pass a valid rights string.");
                         return "Protect: Please pass a valid rights string.";
                     }
                 }
@@ -65,33 +79,49 @@ namespace RMSWS
                     if (template != null)
                     {
                         cryptor.EncryptFile(filePath, template.TemplateId);
+                        ts.TraceEvent(TraceEventType.Warning, 0, "Protect: File has been processed");
                         return "Protect: File has been processed.";
                     }
                     else
                     {
+                        ts.TraceEvent(TraceEventType.Warning, 0, "Protect: Template does not exist, please choose an available template name.");
                         return "Protect: Template does not exist, please choose an available template name.";
                     }
                 }
                 else
                 {
+                    ts.TraceEvent(TraceEventType.Warning, 0, "Protect: Please pass either a rights string or a template name.");
                     return "Protect: Please pass either a rights string or a template name.";
                 }
             }
             else
             {
+
+                ts.TraceEvent(TraceEventType.Warning, 0, "Protect: File is already protected.");
                 return "Protect: File is already protected.";
             }
         }
 
         public string Unprotect(string filePath)
         {
+
+            TraceSource ts = new TraceSource("myTraceSource");
+
+            // Writing out some events
+            ts.TraceEvent(TraceEventType.Warning, 0, "warning message");
+            ts.TraceEvent(TraceEventType.Error, 0, "error message");
+            ts.TraceEvent(TraceEventType.Information, 0, "information message");
+            ts.TraceEvent(TraceEventType.Critical, 0, "critical message");
+
             if (cryptor.IsEncrypted(filePath))
             {
                 cryptor.DecryptFile(filePath);
+                ts.TraceEvent(TraceEventType.Warning, 0, "Unprotect: File has been processed.");
                 return "Unprotect: File has been processed.";
             }
             else
             {
+                ts.TraceEvent(TraceEventType.Warning, 0, "Unprotect: File is not protected.");
                 return "Unprotect: File is not protected.";
             }
         }
