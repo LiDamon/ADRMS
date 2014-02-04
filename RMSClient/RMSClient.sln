@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMSClient", "RMSClient\RMSC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtectionAPI", "..\IpcManagedAPI\ProtectionAPI.csproj", "{F62216AB-28D4-4033-932C-E5A94E38C3B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMSWS", "RMSWS\RMSWS.csproj", "{A75EBDFD-3DCC-47EC-90BF-FFA862F9C03C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient", "ConsoleApplication1\WebServiceClient.csproj", "{2BBCDEC7-991F-456F-94E9-50DA3D85ABDE}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -23,6 +27,14 @@ Global
 		{F62216AB-28D4-4033-932C-E5A94E38C3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62216AB-28D4-4033-932C-E5A94E38C3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62216AB-28D4-4033-932C-E5A94E38C3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75EBDFD-3DCC-47EC-90BF-FFA862F9C03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75EBDFD-3DCC-47EC-90BF-FFA862F9C03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75EBDFD-3DCC-47EC-90BF-FFA862F9C03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75EBDFD-3DCC-47EC-90BF-FFA862F9C03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBCDEC7-991F-456F-94E9-50DA3D85ABDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBCDEC7-991F-456F-94E9-50DA3D85ABDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBCDEC7-991F-456F-94E9-50DA3D85ABDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBCDEC7-991F-456F-94E9-50DA3D85ABDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,7 +19,7 @@ namespace RMSClient
     {
         static void Main(string[] args)
         {
-            Console.Clear();
+            //Console.Clear();
 
             var encryptionAndDecryption = new EncryptionAndDecryption();
             var options = new Options();
