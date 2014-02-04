@@ -13,9 +13,11 @@ namespace RMSWS
     {
 
         [OperationContract]
+        [WebInvoke(Method="GET", ResponseFormat=WebMessageFormat.Json, BodyStyle=WebMessageBodyStyle.Wrapped)]
         string Protect(string ownerEmailAddress, string filePath, string templateName, string listOfRights);
 
         [OperationContract]
+        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped)]
         string Unprotect(string filePath);
 
     }
