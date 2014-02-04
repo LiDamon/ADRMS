@@ -22,31 +22,10 @@ namespace RMSWS
     {
         private EncryptionAndDecryption cryptor = new EncryptionAndDecryption();
 
-
-        [DllImport(@"urlmon.dll", CharSet = CharSet.Auto)]
-        private extern static System.UInt32 FindMimeFromData(
-            System.UInt32 pBC,
-            [MarshalAs(UnmanagedType.LPStr)] System.String pwzUrl,
-            [MarshalAs(UnmanagedType.LPArray)] byte[] pBuffer,
-            System.UInt32 cbSize,
-            [MarshalAs(UnmanagedType.LPStr)] System.String pwzMimeProposed,
-            System.UInt32 dwMimeFlags,
-            out System.UInt32 ppwzMimeOut,
-            System.UInt32 dwReserverd
-        );
-
-
         public string Protect(string ownerEmailAddress, string filePath, string templateName, string listOfRights)
         {
 
             TraceSource ts = new TraceSource("myTraceSource");
-
-            // Writing out some events
-            ts.TraceEvent(TraceEventType.Warning, 0, "warning message");
-            ts.TraceEvent(TraceEventType.Error, 0, "error message");
-            ts.TraceEvent(TraceEventType.Information, 0, "information message");
-            ts.TraceEvent(TraceEventType.Critical, 0, "critical message");
-
 
             Collection<UserRights> userRights = new Collection<UserRights>();
             Collection<TemplateInfo> templatesInfo = cryptor.GetTemplatesInfo();
@@ -107,12 +86,7 @@ namespace RMSWS
 
             TraceSource ts = new TraceSource("myTraceSource");
 
-            // Writing out some events
-            ts.TraceEvent(TraceEventType.Warning, 0, "warning message");
-            ts.TraceEvent(TraceEventType.Error, 0, "error message");
-            ts.TraceEvent(TraceEventType.Information, 0, "information message");
-            ts.TraceEvent(TraceEventType.Critical, 0, "critical message");
-
+           
             if (cryptor.IsEncrypted(filePath))
             {
                 cryptor.DecryptFile(filePath);
