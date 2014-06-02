@@ -4449,11 +4449,11 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S0">Value</col>
 		<col def="s72">Component_</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>Registry1</td><td>0</td><td>.docx\shell</td><td/><td>km-protect,file-info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry2</td><td>0</td><td>.docx\shell\km-protect</td><td/><td>&amp;km-protect</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry4</td><td>0</td><td>.docx\shell\km-protect\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f  %1" "-a protect" "-t KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry5</td><td>0</td><td>.docx\shell\file-info\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f  %1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry6</td><td>0</td><td>.docx\shell\file-info</td><td/><td>&amp;file-info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry2</td><td>0</td><td>Word.Document.12\shell\km-protect</td><td/><td>&amp;km-protect</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry3</td><td>0</td><td>Word.Document.12\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
+		<row><td>Registry4</td><td>0</td><td>Word.Document.12\shell\km-protect\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f  %1" "-a protect" "-t KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry5</td><td>0</td><td>Word.Document.12\shell\file-info\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f  %1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry6</td><td>0</td><td>Word.Document.12\shell\file-info</td><td/><td>&amp;file-info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 	</table>
 
 	<table name="RemoveFile">

@@ -2,14 +2,13 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMSClient", "RMSClient\RMSClient.csproj", "{1575826D-CCC4-41FD-9F9C-05B7331B9EC4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F62216AB-28D4-4033-932C-E5A94E38C3B3} = {F62216AB-28D4-4033-932C-E5A94E38C3B3}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtectionAPI", "..\IpcManagedAPI\ProtectionAPI.csproj", "{F62216AB-28D4-4033-932C-E5A94E38C3B3}"
 EndProject
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "RMSInstaller", "RMSInstaller\RMSInstaller.isproj", "{BD2405A1-FF76-4E50-84FC-4675BDC56B72}"
-	ProjectSection(ProjectDependencies) = postProject
-		{1575826D-CCC4-41FD-9F9C-05B7331B9EC4} = {1575826D-CCC4-41FD-9F9C-05B7331B9EC4}
-		{F62216AB-28D4-4033-932C-E5A94E38C3B3} = {F62216AB-28D4-4033-932C-E5A94E38C3B3}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
