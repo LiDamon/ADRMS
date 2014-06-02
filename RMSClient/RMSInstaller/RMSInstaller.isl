@@ -344,16 +344,12 @@
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{3F28BB49-3C88-4C57-BD64-9420628A574D}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{A8C14148-8170-47C0-9756-ED1082D7F9EF}</td><td>CCC_RMS_PROTECTOR1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{C5F228ED-5417-4AD1-B11A-0B42F50E31EE}</td><td>ICONS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ProtectionAPI.Debug_Symbols</td><td>{A2E981EF-AD49-45B0-B989-EAAAA9509DDB}</td><td>CCC_RMS_PROTECTOR</td><td>2</td><td/><td>protectionapi.debug_symbols</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ProtectionAPI.Documentation_Files</td><td>{0DAD8425-6974-4350-9BB8-0AED858CDB9A}</td><td>CCC_RMS_PROTECTOR</td><td>2</td><td/><td>protectionapi.documentation_</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ProtectionAPI.Localized_resources</td><td>{90BED589-E12C-4842-A7E3-39AAE7807310}</td><td>CCC_RMS_PROTECTOR</td><td>2</td><td/><td>protectionapi.localized_reso</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ProtectionAPI.Primary_output</td><td>{4E257082-E6E1-4C9C-835F-A53960E0A47A}</td><td>INSTALLDIR</td><td>2</td><td/><td>protectionapi.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ProtectionAPI.XML_Serialization_Assemblies</td><td>{D08C0016-850F-4F83-B1EB-809079D470F5}</td><td>CCC_RMS_PROTECTOR</td><td>2</td><td/><td>protectionapi.xml_serializat</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>RMSClient.Debug_Symbols</td><td>{7D5F4058-1784-4180-BFC4-17A8CCECB0D7}</td><td>CCC_RMS_PROTECTOR</td><td>2</td><td/><td>rmsclient.debug_symbols</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>RMSClient.Documentation_Files</td><td>{0C0676B7-D271-44DE-99D3-66B4620EC80D}</td><td>CCC_RMS_PROTECTOR</td><td>2</td><td/><td>rmsclient.documentation_file</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>RMSClient.Localized_resources</td><td>{D9D6A503-C8B9-4970-9323-4D4EA62FCA43}</td><td>CCC_RMS_PROTECTOR</td><td>2</td><td/><td>rmsclient.localized_resource</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>RMSClient.Primary_output</td><td>{0780426D-612B-4F91-9BBD-B44196992904}</td><td>INSTALLDIR</td><td>2</td><td/><td>rmsclient.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>RMSClient.XML_Serialization_Assemblies</td><td>{C67B3D46-7166-4C78-948C-78A1BF44229A}</td><td>CCC_RMS_PROTECTOR</td><td>2</td><td/><td>rmsclient.xml_serialization_</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -950,7 +946,8 @@
 		<row><td>InstallChangeFolder</td><td>Up</td><td>DirectoryListUp</td><td>0</td><td>1</td><td>0</td></row>
 		<row><td>InstallWelcome</td><td>Back</td><td>NewDialog</td><td>SplashBitmap</td><td>Display_IsBitmapDlg</td><td>0</td></row>
 		<row><td>InstallWelcome</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
-		<row><td>InstallWelcome</td><td>Next</td><td>NewDialog</td><td>ReadyToInstall</td><td>1</td><td>0</td></row>
+		<row><td>InstallWelcome</td><td>Next</td><td>EndDialog</td><td>Return</td><td>OutOfDiskSpace &lt;&gt; 1</td><td>1</td></row>
+		<row><td>InstallWelcome</td><td>Next</td><td>NewDialog</td><td>ReadyToInstall</td><td>0</td><td>1</td></row>
 		<row><td>LicenseAgreement</td><td>Back</td><td>NewDialog</td><td>InstallWelcome</td><td>1</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>ISPrintButton</td><td>DoAction</td><td>ISPrint</td><td>1</td><td>0</td></row>
@@ -1881,16 +1878,12 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT3</td></row>
-		<row><td>AlwaysInstall</td><td>ProtectionAPI.Debug_Symbols</td></row>
 		<row><td>AlwaysInstall</td><td>ProtectionAPI.Documentation_Files</td></row>
 		<row><td>AlwaysInstall</td><td>ProtectionAPI.Localized_resources</td></row>
 		<row><td>AlwaysInstall</td><td>ProtectionAPI.Primary_output</td></row>
-		<row><td>AlwaysInstall</td><td>ProtectionAPI.XML_Serialization_Assemblies</td></row>
-		<row><td>AlwaysInstall</td><td>RMSClient.Debug_Symbols</td></row>
 		<row><td>AlwaysInstall</td><td>RMSClient.Documentation_Files</td></row>
 		<row><td>AlwaysInstall</td><td>RMSClient.Localized_resources</td></row>
 		<row><td>AlwaysInstall</td><td>RMSClient.Primary_output</td></row>
-		<row><td>AlwaysInstall</td><td>RMSClient.XML_Serialization_Assemblies</td></row>
 	</table>
 
 	<table name="File">
@@ -1905,16 +1898,12 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>protectionapi.debug_symbols</td><td>ProtectionAPI.Debug_Symbols</td><td>ProtectionAPI.Debug Symbols</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ProtectionAPI&gt;|Symbols</td><td>3</td><td/></row>
 		<row><td>protectionapi.documentation_</td><td>ProtectionAPI.Documentation_Files</td><td>ProtectionAPI.Documentation Files</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ProtectionAPI&gt;|Documentation</td><td>3</td><td/></row>
 		<row><td>protectionapi.localized_reso</td><td>ProtectionAPI.Localized_resources</td><td>ProtectionAPI.Localized resources</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ProtectionAPI&gt;|LocalizedResourceDlls</td><td>3</td><td/></row>
 		<row><td>protectionapi.primary_output</td><td>ProtectionAPI.Primary_output</td><td>ProtectionAPI.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ProtectionAPI&gt;|Built</td><td>3</td><td/></row>
-		<row><td>protectionapi.xml_serializat</td><td>ProtectionAPI.XML_Serialization_Assemblies</td><td>ProtectionAPI.XML Serialization Assemblies</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ProtectionAPI&gt;|XmlSerializer</td><td>3</td><td/></row>
-		<row><td>rmsclient.debug_symbols</td><td>RMSClient.Debug_Symbols</td><td>RMSClient.Debug Symbols</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;RMSClient&gt;|Symbols</td><td>3</td><td/></row>
 		<row><td>rmsclient.documentation_file</td><td>RMSClient.Documentation_Files</td><td>RMSClient.Documentation Files</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;RMSClient&gt;|Documentation</td><td>3</td><td/></row>
 		<row><td>rmsclient.localized_resource</td><td>RMSClient.Localized_resources</td><td>RMSClient.Localized resources</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;RMSClient&gt;|LocalizedResourceDlls</td><td>3</td><td/></row>
 		<row><td>rmsclient.primary_output</td><td>RMSClient.Primary_output</td><td>RMSClient.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;RMSClient&gt;|Built</td><td>3</td><td/></row>
-		<row><td>rmsclient.xml_serialization_</td><td>RMSClient.XML_Serialization_Assemblies</td><td>RMSClient.XML Serialization Assemblies</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;RMSClient&gt;|XmlSerializer</td><td>3</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2062,16 +2051,12 @@
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_1E39BF58_BC9F_4BBF_804A_D0BF4B073DBB_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_36F08DE0_4B5D_453B_A6FE_D8122CA1F877_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_25FA588B_F194_4753_A5BD_523714AE6210_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ProtectionAPI.Debug_Symbols</td><td/><td/><td>_01A144CD_D6F5_4DC8_BE2B_B2A75F5461F8_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ProtectionAPI.Documentation_Files</td><td/><td/><td>_F56A0FC0_E11F_4E0F_9ED8_EF8DCF92589F_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ProtectionAPI.Localized_resources</td><td/><td/><td>_D3C2EE66_389E_4CE7_B121_DD9BEC109231_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ProtectionAPI.Primary_output</td><td/><td/><td>_2A82DD77_4BE4_449F_9C02_145BA338D754_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ProtectionAPI.XML_Serialization_Assemblies</td><td/><td/><td>_270FFA9D_5BB7_4383_9D2E_F901A07B20A3_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>RMSClient.Debug_Symbols</td><td/><td/><td>_28797704_5697_43B5_95B0_AF1767115EE3_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>RMSClient.Documentation_Files</td><td/><td/><td>_55267B5B_5903_4A37_A568_853D7AD945C3_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>RMSClient.Localized_resources</td><td/><td/><td>_C57B5485_07E4_4748_8F4F_CC9C7B8EEFD6_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>RMSClient.Primary_output</td><td/><td/><td>_B4ED3B19_CF04_4366_B7AB_C861D70C1512_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>RMSClient.XML_Serialization_Assemblies</td><td/><td/><td>_738C4806_175F_4994_B114_CCA69E1095FD_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -4035,7 +4020,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{E1AFAC99-B6F8-4C7A-9839-4AC6565589DA}</td></row>
 		<row><td>ISUSSignature</td><td>{1313C527-4F7A-49E3-B066-15337C753099}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewSetupTypes,viewSetupDesign,viewRealSetupDesign,viewAppFiles,viewFeatureFiles,viewObjects,viewDependencies,viewRegistry</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewSetupTypes,viewSetupDesign,viewRealSetupDesign,viewAppFiles,viewFeatureFiles,viewObjects,viewDependencies,viewRegistry,viewUI,viewTextMessages,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewSupportFiles,viewISToday</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4081,7 +4066,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>SetupCompleteSuccess</td><td/><td>-1</td><td>SetupCompleteSuccess</td><td/></row>
 		<row><td>SetupInitialization</td><td/><td>420</td><td>SetupInitialization</td><td/></row>
 		<row><td>SetupInterrupted</td><td/><td>-2</td><td>SetupInterrupted</td><td/></row>
-		<row><td>SetupProgress</td><td/><td>1240</td><td>SetupProgress</td><td/></row>
 		<row><td>SetupResume</td><td>Installed And (RESUME Or Preselected) And Not PATCH</td><td>1220</td><td>SetupResume</td><td/></row>
 		<row><td>ValidateProductID</td><td/><td>700</td><td>ValidateProductID</td><td/></row>
 		<row><td>setAllUsersProfile2K</td><td>VersionNT &gt;= 500</td><td>980</td><td/><td/></row>
