@@ -4035,7 +4035,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{E1AFAC99-B6F8-4C7A-9839-4AC6565589DA}</td></row>
 		<row><td>ISUSSignature</td><td>{1313C527-4F7A-49E3-B066-15337C753099}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewSetupTypes,viewSetupDesign,viewRealSetupDesign,viewAppFiles,viewFeatureFiles,viewObjects,viewDependencies,viewRegistry</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4481,6 +4481,11 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S0">Value</col>
 		<col def="s72">Component_</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>Registry2</td><td>0</td><td>.docx\shell</td><td>(Default)</td><td>km-protect,file-info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry3</td><td>0</td><td>.docx\shell\km-protect</td><td>(Default)</td><td>&amp;km-protect</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry4</td><td>0</td><td>.docx\shell\km-protect\command</td><td/><td>"C:\Program Files\RMSClient.exe" "-f  %1" "-a protect" "-t KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry5</td><td>0</td><td>.docx\shell\file-info\command</td><td/><td>"C:\Program Files\RMSClient.exe" "-f  %1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry6</td><td>0</td><td>.docx\shell\file-info</td><td/><td>&amp;file-info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 	</table>
 
 	<table name="RemoveFile">
