@@ -1,0 +1,11 @@
+﻿AUTO-GUID
+.\\\Keys\\ISVSigningKeyPriv.dat
+
+modulelist
+req     .\\RMSClient.exe
+
+POLICYLIST
+INCLUSION
+PUBLICKEY .\\Keys\\Pubkey.dat
+
+EXCLUSION
