@@ -17,8 +17,18 @@ namespace RMSClient
 {
     class Program
     {
+        public const bool SHOW_MSGBOX = true;
+        public const int SW_SHOWMINIMIZED = 2;
+        public const int SW_HIDE = 0;
+
+        [DllImport("user32.dll")]
+        public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+
         static void Main(string[] args)
         {
+            IntPtr winHandle = System.Diagnostics.Process.GetCurrentProcess().MainWindowHandle;
+            ShowWindow(winHandle, SW_HIDE);
+
             //Console.Clear();
 
             var encryptionAndDecryption = new EncryptionAndDecryption();
@@ -37,23 +47,42 @@ namespace RMSClient
 
                 if (options.fileInfo)
                 {
-                    Console.WriteLine();
-                    
                     if (encryptionAndDecryption.IsEncrypted(file))
-                        Console.WriteLine("File is protected!");
+                    {
+                        //DialogResult messageBox = MessageBox.Show("File is protected!", "CCC RMS", MessageBoxButtons.OK);
+                        if (SHOW_MSGBOX == true)
+                            MessageBox.Show("File is protected!", "CCC RMS", MessageBoxButtons.OK);
+                        else
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine("File is protected!");
+                            Console.WriteLine();
+                        }
+                    }
                     else
-                        Console.WriteLine("File is not protected!");
-
-                    Console.WriteLine();
+                    {
+                        if (SHOW_MSGBOX == true)
+                            MessageBox.Show("File is not protected!", "CCC RMS", MessageBoxButtons.OK);
+                        else
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine("File is not protected!");
+                            Console.WriteLine();
+                        }
+                    }
                 }
 
                 else if (options.action.ToLower() == "protect" || options.action.ToLower() == "unprotect")
                 {
                     action = options.action.ToLower();
 
-                    Console.WriteLine();
-                    Console.WriteLine("Action: {0} File", options.action);
-                    Console.WriteLine();
+                    //PRINT ACTION
+                    if (SHOW_MSGBOX == false)
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine("Action: {0} File", options.action);
+                        Console.WriteLine();
+                    }
 
                     //PROTECT CASE
                     if (action == "protect")
@@ -71,10 +100,16 @@ namespace RMSClient
                                 }
                                 else 
                                 {
-                                    Console.WriteLine();
-                                    Console.WriteLine("Please pass a valid rights string.");
-                                    Console.WriteLine();
-                                    Console.WriteLine(options.GetUsage());
+                                    //SEND FEEDBACK
+                                    if (SHOW_MSGBOX == true)
+                                        MessageBox.Show("Please pass a valid rights string!", "CCC RMS", MessageBoxButtons.OK);
+                                    else
+                                    {
+                                        Console.WriteLine();
+                                        Console.WriteLine("Please pass a valid rights string.");
+                                        Console.WriteLine();
+                                        Console.WriteLine(options.GetUsage());
+                                    }
                                 }
                             }
 
@@ -91,27 +126,45 @@ namespace RMSClient
                                 }
                                 else
                                 {
-                                    Console.WriteLine();
-                                    Console.WriteLine("Template does not exist, please choose an available template name.");
-                                    Console.WriteLine();
-                                    Console.WriteLine(options.GetUsage());
+                                    //SEND FEEDBACK
+                                    if (SHOW_MSGBOX == true)
+                                        MessageBox.Show("Template does not exist, please choose an available template name.", "CCC RMS", MessageBoxButtons.OK);
+                                    else
+                                    {
+                                        Console.WriteLine();
+                                        Console.WriteLine("Template does not exist, please choose an available template name.");
+                                        Console.WriteLine();
+                                        Console.WriteLine(options.GetUsage());
+                                    }
                                 }
                             }
 
                             else
                             {
-                                Console.WriteLine();
-                                Console.WriteLine("Please pass either a rights string or a template name.");
-                                Console.WriteLine();
-                                Console.WriteLine(options.GetUsage());
+                                //SEND FEEDBACK
+                                if (SHOW_MSGBOX == true)
+                                    MessageBox.Show("Please pass either a rights string or a template name.", "CCC RMS", MessageBoxButtons.OK);
+                                else
+                                {
+                                    Console.WriteLine();
+                                    Console.WriteLine("Please pass either a rights string or a template name.");
+                                    Console.WriteLine();
+                                    Console.WriteLine(options.GetUsage());
+                                }
                             }
                         }
                         else
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("File is already protected.");
-                            Console.WriteLine();
-                            Console.WriteLine(options.GetUsage());
+                            //SEND FEEDBACK
+                            if (SHOW_MSGBOX == true)
+                                MessageBox.Show("File is already protected.", "CCC RMS", MessageBoxButtons.OK);
+                            else
+                            {
+                                Console.WriteLine();
+                                Console.WriteLine("File is already protected.");
+                                Console.WriteLine();
+                                Console.WriteLine(options.GetUsage());
+                            }
                         }
                     }
 
@@ -123,10 +176,16 @@ namespace RMSClient
                         }
                         else
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("File is not protected.");
-                            Console.WriteLine();
-                            Console.WriteLine(options.GetUsage());
+                            //SEND FEEDBACK
+                            if (SHOW_MSGBOX == true)
+                                MessageBox.Show("File is not protected.", "CCC RMS", MessageBoxButtons.OK);
+                            else
+                            {
+                                Console.WriteLine();
+                                Console.WriteLine("File is not protected.");
+                                Console.WriteLine();
+                                Console.WriteLine(options.GetUsage());
+                            }
                         }
                     }
                 }
