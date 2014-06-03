@@ -97,6 +97,17 @@ namespace RMSClient
                                 if (usersRightsCollection.Count > 0)
                                 {
                                     encryptionAndDecryption.EncryptFile("rmsprotector@ccc.gr", usersRightsCollection, file);
+
+                                    //SEND FEEDBACK
+                                    if (SHOW_MSGBOX == true)
+                                        MessageBox.Show("File was protected with rights: " + usersRightsCollection.ToString(), "CCC RMS", MessageBoxButtons.OK);
+                                    else
+                                    {
+                                        Console.WriteLine();
+                                        Console.WriteLine("File was protected with rights: " + usersRightsCollection.ToString());
+                                        Console.WriteLine();
+                                        Console.WriteLine(options.GetUsage());
+                                    }
                                 }
                                 else 
                                 {
@@ -123,6 +134,17 @@ namespace RMSClient
                                 if (template != null)
                                 {
                                     encryptionAndDecryption.EncryptFile(file, template.TemplateId);
+
+                                    //SEND FEEDBACK
+                                    if (SHOW_MSGBOX == true)
+                                        MessageBox.Show("File was protected with template: " + template.Name, "CCC RMS", MessageBoxButtons.OK);
+                                    else
+                                    {
+                                        Console.WriteLine();
+                                        Console.WriteLine("File was protected with template: " + template.Name);
+                                        Console.WriteLine();
+                                        Console.WriteLine(options.GetUsage());
+                                    }
                                 }
                                 else
                                 {
@@ -173,6 +195,17 @@ namespace RMSClient
                         if (encryptionAndDecryption.IsEncrypted(file) == true)
                         {
                             encryptionAndDecryption.DecryptFile(file);
+
+                            //SEND FEEDBACK
+                            if (SHOW_MSGBOX == true)
+                                MessageBox.Show("File was unprotected successfully.", "CCC RMS", MessageBoxButtons.OK);
+                            else
+                            {
+                                Console.WriteLine();
+                                Console.WriteLine("File was protected with successfully.");
+                                Console.WriteLine();
+                                Console.WriteLine(options.GetUsage());
+                            }
                         }
                         else
                         {
