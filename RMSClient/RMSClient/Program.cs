@@ -33,12 +33,24 @@ namespace RMSClient
 
             if (CommandLine.Parser.Default.ParseArguments(args, options)) 
             {
-                action = options.action.ToLower();
-                file = options.InputFile.ToLower();
+                file = options.inputFile.ToLower();
 
-
-                if (options.action.ToLower() == "protect" || options.action.ToLower() == "unprotect")
+                if (options.fileInfo)
                 {
+                    Console.WriteLine();
+                    
+                    if (encryptionAndDecryption.IsEncrypted(file))
+                        Console.WriteLine("File is protected!");
+                    else
+                        Console.WriteLine("File is not protected!");
+
+                    Console.WriteLine();
+                }
+
+                else if (options.action.ToLower() == "protect" || options.action.ToLower() == "unprotect")
+                {
+                    action = options.action.ToLower();
+
                     Console.WriteLine();
                     Console.WriteLine("Action: {0} File", options.action);
                     Console.WriteLine();

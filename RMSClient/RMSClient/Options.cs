@@ -11,17 +11,19 @@ namespace RMSClient
     class Options
     {
         [Option('f', "file", Required = true, HelpText = "Input file to be processed.")]
-        public string InputFile { get; set; }
+        public string inputFile { get; set; }
 
-        [Option('a', "action", Required = true, HelpText = "Protect/Unprotect file")]
+        [Option('a', "action", Required = false, HelpText = "Protect/Unprotect file")]
         public string action { get; set; }
 
-        [Option('t', "templateName", HelpText = "Template Name")]
+        [Option('t', "templateName", Required = false, HelpText = "Template Name")]
         public string templateName { get; set; }
 
-        [Option('r', "rights", HelpText = "list of rights")]
+        [Option('r', "rights", Required = false, HelpText = "List of Rights")]
         public string rights { get; set; }
-        
+
+        [Option('i', "fileInfo", Required = false, HelpText = "File Information")]
+        public bool fileInfo { get; set; }
 
         [ParserState]
         public IParserState LastParserState { get; set; }
