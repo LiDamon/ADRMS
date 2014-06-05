@@ -346,6 +346,7 @@
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{C5F228ED-5417-4AD1-B11A-0B42F50E31EE}</td><td>ICONS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{636736A0-29FD-485A-8B9E-CF8F59723C63}</td><td>INSTALLDIR</td><td>258</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ProtectionAPI.Primary_output</td><td>{4E257082-E6E1-4C9C-835F-A53960E0A47A}</td><td>INSTALLDIR</td><td>2</td><td/><td>protectionapi.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>RMSClient.Content_Files</td><td>{E70E212E-CE71-41DB-978F-A919E396D5D2}</td><td>INSTALLDIR</td><td>2</td><td/><td>rmsclient.content_files</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>RMSClient.Primary_output</td><td>{0780426D-612B-4F91-9BBD-B44196992904}</td><td>INSTALLDIR</td><td>2</td><td/><td>rmsclient.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
@@ -1878,6 +1879,7 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT3</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT4</td></row>
 		<row><td>AlwaysInstall</td><td>ProtectionAPI.Primary_output</td></row>
+		<row><td>AlwaysInstall</td><td>RMSClient.Content_Files</td></row>
 		<row><td>AlwaysInstall</td><td>RMSClient.Primary_output</td></row>
 	</table>
 
@@ -1894,6 +1896,7 @@
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
 		<row><td>protectionapi.primary_output</td><td>ProtectionAPI.Primary_output</td><td>ProtectionAPI.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ProtectionAPI&gt;|Built</td><td>3</td><td/></row>
+		<row><td>rmsclient.content_files</td><td>RMSClient.Content_Files</td><td>RMSClient.Content Files</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;RMSClient&gt;|ContentFiles</td><td>3</td><td/></row>
 		<row><td>rmsclient.primary_output</td><td>RMSClient.Primary_output</td><td>RMSClient.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;RMSClient&gt;|Built</td><td>3</td><td/></row>
 	</table>
 
@@ -2045,6 +2048,7 @@
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_25FA588B_F194_4753_A5BD_523714AE6210_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_ECCB65BA_F12D_410A_9FBD_7DF3CD1125D0_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ProtectionAPI.Primary_output</td><td/><td/><td>_2A82DD77_4BE4_449F_9C02_145BA338D754_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>RMSClient.Content_Files</td><td/><td/><td>_821FA09C_1E9A_4437_A38B_C8F50D82F395_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>RMSClient.Primary_output</td><td/><td/><td>_B4ED3B19_CF04_4366_B7AB_C861D70C1512_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
@@ -4009,7 +4013,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{E1AFAC99-B6F8-4C7A-9839-4AC6565589DA}</td></row>
 		<row><td>ISUSSignature</td><td>{1313C527-4F7A-49E3-B066-15337C753099}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewSetupTypes,viewSetupDesign,viewRealSetupDesign,viewAppFiles,viewFeatureFiles,viewObjects,viewDependencies,viewRegistry,viewUI,viewTextMessages,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewSupportFiles,viewISToday</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewSetupTypes,viewSetupDesign,viewRealSetupDesign,viewAppFiles,viewFeatureFiles,viewObjects,viewDependencies,viewRegistry,viewUI,viewTextMessages,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewSupportFiles,viewISToday,viewShortcuts</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
