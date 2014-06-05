@@ -1059,6 +1059,7 @@
 		<row><td>CCC_RMS_PROTECTOR</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>CCC_RMS_PROTECTOR1</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>ICONS</td><td>ISX_DEFAULTCOMPONENT3</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT4</td></row>
 	</table>
 
@@ -1893,8 +1894,6 @@
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
 		<row><td>protectionapi.primary_output</td><td>ProtectionAPI.Primary_output</td><td>ProtectionAPI.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ProtectionAPI&gt;|Built</td><td>3</td><td/></row>
-		<row><td>rmsclient.exe.man</td><td>ISX_DEFAULTCOMPONENT1</td><td>RMSCLI~1.MAN|RMSClient.exe.man</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\aalhour\Documents\Visual Studio 2012\Projects\RMSLib\RMSClient\RMSClient\bin\Release\RMSClient.exe.man</td><td>1</td><td/></row>
-		<row><td>rmsclient.exe.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>RMSCLI~1.XML|RMSClient.exe.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\aalhour\Documents\Visual Studio 2012\Projects\RMSLib\RMSClient\RMSClient\bin\Release\RMSClient.exe.xml</td><td>1</td><td/></row>
 		<row><td>rmsclient.primary_output</td><td>RMSClient.Primary_output</td><td>RMSClient.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;RMSClient&gt;|Built</td><td>3</td><td/></row>
 	</table>
 
