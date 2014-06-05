@@ -51,7 +51,7 @@
 	
 	<summary>
 		<codepage>1252</codepage>
-		<title>Installation Database</title>
+		<title>##ID_STRING5##</title>
 		<subject></subject>
 		<author>##ID_STRING2##</author>
 		<keywords>Installer,MSI,Database</keywords>
@@ -3771,6 +3771,9 @@
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>321039855</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td>http://www.ccc.me</td><td>0</td><td/><td>723671536</td></row>
 		<row><td>ID_STRING2</td><td>1033</td><td>Consolidated Contractors Company Offshore S.A.L.</td><td>0</td><td/><td>723681616</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>rnd@ccc.gr</td><td>0</td><td/><td>723708400</td></row>
+		<row><td>ID_STRING4</td><td>1033</td><td>+302106182170</td><td>0</td><td/><td>723673616</td></row>
+		<row><td>ID_STRING5</td><td>1033</td><td>CCC RMS Client Installer</td><td>0</td><td/><td>723667504</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>321039855</td></row>
 	</table>
 
@@ -4321,6 +4324,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L0">Value</col>
 		<col def="S255">ISComments</col>
 		<row><td>ALLUSERS</td><td>1</td><td/></row>
+		<row><td>ARPCONTACT</td><td>##ID_STRING3##</td><td/></row>
+		<row><td>ARPHELPTELEPHONE</td><td>##ID_STRING4##</td><td/></row>
 		<row><td>ARPINSTALLLOCATION</td><td/><td/></row>
 		<row><td>ARPPRODUCTICON</td><td>ARPPRODUCTICON.exe</td><td/></row>
 		<row><td>ARPSIZE</td><td/><td/></row>
