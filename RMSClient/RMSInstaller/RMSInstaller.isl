@@ -344,6 +344,7 @@
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{3F28BB49-3C88-4C57-BD64-9420628A574D}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{A8C14148-8170-47C0-9756-ED1082D7F9EF}</td><td>CCC_RMS_PROTECTOR1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{C5F228ED-5417-4AD1-B11A-0B42F50E31EE}</td><td>ICONS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{636736A0-29FD-485A-8B9E-CF8F59723C63}</td><td>INSTALLDIR</td><td>258</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ProtectionAPI.Primary_output</td><td>{4E257082-E6E1-4C9C-835F-A53960E0A47A}</td><td>INSTALLDIR</td><td>2</td><td/><td>protectionapi.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>RMSClient.Primary_output</td><td>{0780426D-612B-4F91-9BBD-B44196992904}</td><td>INSTALLDIR</td><td>2</td><td/><td>rmsclient.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
@@ -1058,7 +1059,7 @@
 		<row><td>CCC_RMS_PROTECTOR</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>CCC_RMS_PROTECTOR1</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>ICONS</td><td>ISX_DEFAULTCOMPONENT3</td></row>
-		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT1</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT4</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1874,6 +1875,7 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT3</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT4</td></row>
 		<row><td>AlwaysInstall</td><td>ProtectionAPI.Primary_output</td></row>
 		<row><td>AlwaysInstall</td><td>RMSClient.Primary_output</td></row>
 	</table>
@@ -1891,6 +1893,8 @@
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
 		<row><td>protectionapi.primary_output</td><td>ProtectionAPI.Primary_output</td><td>ProtectionAPI.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ProtectionAPI&gt;|Built</td><td>3</td><td/></row>
+		<row><td>rmsclient.exe.man</td><td>ISX_DEFAULTCOMPONENT1</td><td>RMSCLI~1.MAN|RMSClient.exe.man</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\aalhour\Documents\Visual Studio 2012\Projects\RMSLib\RMSClient\RMSClient\bin\Release\RMSClient.exe.man</td><td>1</td><td/></row>
+		<row><td>rmsclient.exe.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>RMSCLI~1.XML|RMSClient.exe.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\aalhour\Documents\Visual Studio 2012\Projects\RMSLib\RMSClient\RMSClient\bin\Release\RMSClient.exe.xml</td><td>1</td><td/></row>
 		<row><td>rmsclient.primary_output</td><td>RMSClient.Primary_output</td><td>RMSClient.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;RMSClient&gt;|Built</td><td>3</td><td/></row>
 	</table>
 
@@ -1909,6 +1913,7 @@
 		<col def="S255">Data</col>
 		<row><td>PROJECT_ASSISTANT_DEFAULT_FEATURE</td><td>AlwaysInstall</td></row>
 		<row><td>PROJECT_ASSISTANT_FEATURES</td><td>NonSelectable</td></row>
+		<row><td>RegistryPageEnabled</td><td>Yes</td></row>
 	</table>
 
 	<table name="ISBillBoard">
@@ -2039,6 +2044,7 @@
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_1E39BF58_BC9F_4BBF_804A_D0BF4B073DBB_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_36F08DE0_4B5D_453B_A6FE_D8122CA1F877_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_25FA588B_F194_4753_A5BD_523714AE6210_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_ECCB65BA_F12D_410A_9FBD_7DF3CD1125D0_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ProtectionAPI.Primary_output</td><td/><td/><td>_2A82DD77_4BE4_449F_9C02_145BA338D754_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>RMSClient.Primary_output</td><td/><td/><td>_B4ED3B19_CF04_4366_B7AB_C861D70C1512_FILTER</td><td/><td/><td/><td/></row>
 	</table>
@@ -2659,7 +2665,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Consolidated Contractors Company Offshore S.A.L.</td><td>0</td><td/><td>321039855</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Consolidated Contractors Company Offshore S.A.L.</td><td>0</td><td/><td>455245517</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>321039855</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>321039855</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL</td><td>1033</td><td>Microsoft .NET Framework 4.5 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>321046063</td></row>
@@ -3760,8 +3766,8 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>321039855</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>321039855</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>321039855</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.ccc.me</td><td>0</td><td/><td>320997167</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>Consolidated Contractors Company Offshore S.A.L.</td><td>0</td><td/><td>321039855</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.ConsolidatedContractorsCompanyOffshoreS.A.L..com</td><td>0</td><td/><td>455245517</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>Consolidated Contractors Company Offshore S.A.L.</td><td>0</td><td/><td>455245517</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>321039855</td></row>
 	</table>
 
@@ -4449,11 +4455,35 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S0">Value</col>
 		<col def="s72">Component_</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>Registry2</td><td>0</td><td>Word.Document.12\shell\km-protect</td><td/><td>&amp;km-protect</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry3</td><td>0</td><td>Word.Document.12\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
-		<row><td>Registry4</td><td>0</td><td>Word.Document.12\shell\km-protect\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f  %1" "-a protect" "-t KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry5</td><td>0</td><td>Word.Document.12\shell\file-info\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f  %1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry6</td><td>0</td><td>Word.Document.12\shell\file-info</td><td/><td>&amp;file-info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry1</td><td>0</td><td>Excel.Sheet.12\shell\KM Content</td><td/><td>&amp;KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry10</td><td>0</td><td>PowerPoint.Slide.12\shell\KM Content</td><td/><td>&amp;KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry11</td><td>0</td><td>PowerPoint.SlideShow.12\shell\KM Content</td><td/><td>&amp;KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry12</td><td>0</td><td>PowerPoint.Show.12\shell\KM Content</td><td/><td>&amp;KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry13</td><td>0</td><td>PowerPoint.Slide.12\shell\KM Content\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-a" "protect" "-t" "KM-Users-View-Only" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry14</td><td>0</td><td>PowerPoint.Slide.12\shell\File Info</td><td/><td>&amp;File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry15</td><td>0</td><td>PowerPoint.Slide.12\shell\File Info\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-i" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry16</td><td>0</td><td>PowerPoint.SlideShow.12\shell\KM Content\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-a" "protect" "-t" "KM-Users-View-Only" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry17</td><td>0</td><td>PowerPoint.SlideShow.12\shell\File Info</td><td/><td>&amp;File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry18</td><td>0</td><td>PowerPoint.SlideShow.12\shell\File Info\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-i" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry19</td><td>0</td><td>PowerPoint.Show.12\shell\KM Content\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-a" "protect" "-t" "KM-Users-View-Only" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry2</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CccRmsKmContent</td><td>MUIVerb</td><td>Protect for KM Usage</td><td>ISX_DEFAULTCOMPONENT4</td><td>0</td></row>
+		<row><td>Registry20</td><td>0</td><td>PowerPoint.Show.12\shell\File Info</td><td/><td>&amp;File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry21</td><td>0</td><td>PowerPoint.Show.12\shell\File Info\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-i" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry22</td><td>0</td><td>.pdf\shell\KM Content</td><td/><td>&amp;KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry23</td><td>0</td><td>.pdf\shell\KM Content\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-a" "protect" "-t" "KM-Users-View-Only" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry24</td><td>0</td><td>.pdf\shell\File Info</td><td/><td>&amp;File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry25</td><td>0</td><td>.pdf\shell\File Info\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-i" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry26</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CccRmsKmContent</td><td/><td>&amp;CccRmsKmContent</td><td>ISX_DEFAULTCOMPONENT4</td><td>0</td></row>
+		<row><td>Registry27</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CccRmsKmContent\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-a" "protect" "-t" "KM-Users-View-Only" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT4</td><td>0</td></row>
+		<row><td>Registry28</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CccRmsFileInfo</td><td/><td>&amp;CccRmsFileInfo</td><td>ISX_DEFAULTCOMPONENT4</td><td>0</td></row>
+		<row><td>Registry29</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CccRmsFileInfo\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-i" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT4</td><td>0</td></row>
+		<row><td>Registry3</td><td>0</td><td>Word.Document.12\shell\CCC RMS</td><td>MUIVerb</td><td>CCC RMS</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry30</td><td>0</td><td>Word.Document.12\shell\CCC RMS</td><td>SubCommands</td><td>CccRmsKmContent;CccRmsFileInfo</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry31</td><td>0</td><td>Word.Document.12\shell\CCC RMS</td><td/><td>&amp;CCC RMS</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry4</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CccRmsFileInfo</td><td>MUIVerb</td><td>View File Info</td><td>ISX_DEFAULTCOMPONENT4</td><td>0</td></row>
+		<row><td>Registry7</td><td>0</td><td>Excel.Sheet.12\shell\KM Content\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-a" "protect" "-t" "KM-Users-View-Only" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry8</td><td>0</td><td>Excel.Sheet.12\shell\File Info</td><td/><td>&amp;File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry9</td><td>0</td><td>Excel.Sheet.12\shell\File Info\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-i" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 	</table>
 
 	<table name="RemoveFile">
