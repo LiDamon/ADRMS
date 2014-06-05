@@ -2386,6 +2386,8 @@
 		<col key="yes" def="s72">ISProductConfiguration_</col>
 		<col key="yes" def="s72">Property</col>
 		<col def="L255">Value</col>
+		<row><td>Express</td><td>MSIPackageFileName</td><td>CCC RMS CLIENT</td></row>
+		<row><td>Express</td><td>SetupFileName</td><td>CCC RMS CLIENT</td></row>
 	</table>
 
 	<table name="ISRelease">
