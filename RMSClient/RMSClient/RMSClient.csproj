@@ -57,7 +57,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <Content Include="Resources\RMSClient.exe.xml" />
     <Content Include="Resources\RMSClient.mcf" />
+    <Content Include="Resources\RMSClient.exe.man" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
