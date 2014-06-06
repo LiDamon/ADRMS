@@ -4468,32 +4468,11 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="I4">ISAttributes</col>
 		<row><td>Registry1</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry10</td><td>0</td><td>PowerPoint.Slide.12\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry100</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd2</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry101</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd2\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry102</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry103</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd1</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry104</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd1\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry105</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd2</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry106</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd2\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry107</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry108</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd1</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry109</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd1\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry11</td><td>0</td><td>PowerPoint.SlideShow.12\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry110</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd2</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry111</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd2\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry112</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry113</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd1</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry114</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd1\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry115</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd2</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry116</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd2\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry117</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry118</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd1</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry119</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd1\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry12</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry120</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd2</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry121</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd2\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry16</td><td>0</td><td>Excel.Sheet.8\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
+		<row><td>Registry16</td><td>0</td><td>Excel.Sheet.8</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
 		<row><td>Registry2</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CccRmsKmContent</td><td>MUIVerb</td><td>Protect for KM Usage</td><td>ISX_DEFAULTCOMPONENT4</td><td>0</td></row>
+		<row><td>Registry21</td><td>0</td><td>Word.Document.12\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry22</td><td>0</td><td>.pdf\shell\KM Content</td><td/><td>&amp;KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry23</td><td>0</td><td>.pdf\shell\KM Content\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-a" "protect" "-t" "KM-Users-View-Only" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry24</td><td>0</td><td>.pdf\shell\File Info</td><td/><td>&amp;File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
@@ -4502,12 +4481,47 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>Registry27</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CccRmsKmContent\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-a" "protect" "-t" "KM-Users-View-Only" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT4</td><td>0</td></row>
 		<row><td>Registry28</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CccRmsFileInfo</td><td/><td>&amp;CccRmsFileInfo</td><td>ISX_DEFAULTCOMPONENT4</td><td>0</td></row>
 		<row><td>Registry29</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CccRmsFileInfo\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-i" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT4</td><td>0</td></row>
-		<row><td>Registry3</td><td>0</td><td>Word.Document.12\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
+		<row><td>Registry3</td><td>0</td><td>Word.Document.12</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
+		<row><td>Registry30</td><td>0</td><td>Word.Document.12\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry31</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry32</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry33</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry34</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry35</td><td>0</td><td>Word.Document.8\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry36</td><td>0</td><td>Word.Document.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry37</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry38</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry39</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry4</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\CccRmsFileInfo</td><td>MUIVerb</td><td>View File Info</td><td>ISX_DEFAULTCOMPONENT4</td><td>0</td></row>
-		<row><td>Registry53</td><td>0</td><td>PowerPoint.Slide.8\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
-		<row><td>Registry59</td><td>0</td><td>PowerPoint.SlideShow.8\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
-		<row><td>Registry65</td><td>0</td><td>PowerPoint.Show.8\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
-		<row><td>Registry7</td><td>0</td><td>Word.Document.8\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
+		<row><td>Registry40</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry41</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry42</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry43</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry44</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry45</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry46</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry47</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry48</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry49</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry50</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry51</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry52</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry53</td><td>0</td><td>PowerPoint.Slide.8</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
+		<row><td>Registry54</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry55</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry56</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry57</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry58</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry59</td><td>0</td><td>PowerPoint.SlideShow.8</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
+		<row><td>Registry60</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry61</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry62</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry63</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry64</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry65</td><td>0</td><td>PowerPoint.Show.8</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
+		<row><td>Registry66</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry67</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry7</td><td>0</td><td>Word.Document.8</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
 		<row><td>Registry72</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry73</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry74</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
@@ -4528,14 +4542,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>Registry89</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "KM-Users-View-Only"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry90</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry91</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry92</td><td>0</td><td>Word.Document.12\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry93</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd1</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry94</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd1\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry95</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd2</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry96</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd2\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry97</td><td>0</td><td>Word.Document.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry98</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd1</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry99</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd1\command</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 	</table>
 
 	<table name="RemoveFile">
