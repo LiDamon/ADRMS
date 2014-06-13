@@ -31,15 +31,15 @@ namespace rmsWebAPI.Controllers
             if (!protector.IsEncrypted(file))
             {
                 if (template == null)
-                    return "Protect: Template doesn't exist or template name is invalid";
+                    return "Template doesn't exist or template name is invalid.";
                 
                 protector.EncryptFile(file, template.TemplateId);
                 
-                return "proctect with template method";
+                return "File has been proctected with template.";
             }
             else 
             {
-                return "Unprotect: File is already Protected.";
+                return "File is already Protected.";
             }
         }
 
@@ -64,20 +64,18 @@ namespace rmsWebAPI.Controllers
                 {
                     protector.EncryptFile(ownerEmail, userRights, file);
 
-                    return "Protect: File has been processed.";
+                    return "File has been protected with list of rights.";
                 }
                 else
                 {
-                    return "Protect: Please pass a valid rights string.";
+                    return "Kindly pass a valid rights string.";
                 }
             }
             else 
             {
-                return "Unprotect: File is already Protected.";
+                return "File is already Protected.";
             }
 
-
-            
         }
 
         [HttpGet]
@@ -88,14 +86,31 @@ namespace rmsWebAPI.Controllers
             if (protector.IsEncrypted(file))
             {
                 protector.DecryptFile(file);
-                return "Unprotect: File has been processed.";
+                return "File has been unprotected.";
             }
             else
             {
-                return "Unprotect: File is not protected.";
+                return "File is not protected.";
             }
         }
- 
+
+
+        [HttpGet]
+        public string IsProtected(string filePath) 
+        {
+            string file = Encoding.UTF8.GetString(Convert.FromBase64String(filePath));
+
+            if (protector.IsEncrypted(file))
+            {
+                return "true";
+            }
+            else 
+            {
+                return "false";
+            }
+
+        }
+
     }
     
     class UserRightsHelper
