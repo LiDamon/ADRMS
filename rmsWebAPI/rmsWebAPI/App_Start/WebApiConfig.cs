@@ -40,6 +40,16 @@ namespace rmsWebAPI
             );
 
             config.Routes.MapHttpRoute(
+               name: "UnprotectApiMethod",
+               routeTemplate: "api/isprotected/{filePath}",
+               defaults: new
+               {
+                   controller = "Values",
+                   action = "IsProtected"
+               }
+           );
+
+            config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
