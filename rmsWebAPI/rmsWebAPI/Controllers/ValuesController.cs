@@ -81,16 +81,25 @@ namespace rmsWebAPI.Controllers
         [HttpGet]
         public string Unprotect(string filePath)
         {
-            string file =Encoding.UTF8.GetString(Convert.FromBase64String(filePath));
 
-            if (protector.IsEncrypted(file))
+            string file = Encoding.UTF8.GetString(Convert.FromBase64String(filePath));
+
+            try
             {
-                protector.DecryptFile(file);
-                return "File has been unprotected.";
+
+                if (protector.IsEncrypted(file))
+                {
+                    protector.DecryptFile(file);
+                    return "File has been unprotected.";
+                }
+                else
+                {
+                    return "File is not protected.";
+                }
             }
-            else
+            catch (Exception ex) 
             {
-                return "File is not protected.";
+                return file;
             }
         }
 
