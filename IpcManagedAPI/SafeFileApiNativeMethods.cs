@@ -149,6 +149,10 @@ namespace CCC.RMSLib
                     decryptedFileName = inputFile;
                 }
             }
+            //catch (Exception ex) 
+            //{
+            //    throw new Exception("file Path : " + inputFile + " ; output Directory  :" + outputDirectory); 
+            //}
             finally
             {
                 UnsafeFileApiMethods.IpcFreeMemory(decryptedFileNamePtr);
