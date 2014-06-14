@@ -99,7 +99,7 @@ namespace rmsWebAPI.Controllers
             }
             catch (Exception ex) 
             {
-                return file;
+                return file + " ; "+ex.StackTrace;
             }
         }
 
