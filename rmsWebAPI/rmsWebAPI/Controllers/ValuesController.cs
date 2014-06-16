@@ -84,8 +84,8 @@ namespace rmsWebAPI.Controllers
 
             string file = Encoding.UTF8.GetString(Convert.FromBase64String(filePath));
 
-            try
-            {
+            //try
+            //{
 
                 if (protector.IsEncrypted(file))
                 {
@@ -96,11 +96,11 @@ namespace rmsWebAPI.Controllers
                 {
                     return "File is not protected.";
                 }
-            }
-            catch (Exception ex) 
-            {
-                return file + " ; "+ex.StackTrace;
-            }
+            //}
+            //catch (Exception ex) 
+            //{
+            //    return file + " ; "+ex.StackTrace;
+            //}
         }
 
 
