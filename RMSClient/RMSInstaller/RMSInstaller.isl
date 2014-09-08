@@ -4476,10 +4476,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>Registry2</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry20</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry21</td><td>0</td><td>Word.Document.12\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry22</td><td>0</td><td>.pdf\shell\KM Content</td><td/><td>&amp;KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry23</td><td>0</td><td>.pdf\shell\KM Content\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-a" "protect" "-t" "KM-Users-View-Only" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry24</td><td>0</td><td>.pdf\shell\File Info</td><td/><td>&amp;File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry25</td><td>0</td><td>.pdf\shell\File Info\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-i" "-f" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry24</td><td>0</td><td>.pdf\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
 		<row><td>Registry27</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry28</td><td>0</td><td>PowerPoint.Slide.12\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry29</td><td>0</td><td>PowerPoint.Slide.12\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
@@ -4555,12 +4552,17 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>_0A558AE1AC79DA2F54DA87807F1F0912</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\UserChoice</td><td>Progid</td><td>FoxitReader.Document</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_1B7C241D6C8682264911BD556A1FD67B</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_25DD3A435C32363EA34248F7B376D7B3</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_2810862F4100FC44F67CC7AC2C38AF53</td><td>0</td><td>.pdf\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_2C1E59EA240D3934E1CAF29CEE1E30C3</td><td>2</td><td>SOFTWARE\Microsoft\MSIPC\FileProtection\pdf</td><td>Encryption</td><td>Native</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_34971D1E63DDCEBA5CDED2C742F42C54</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithList</td><td>MRUList</td><td>abc</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_3693B9EC055387811A21C8430FF7D75F</td><td>0</td><td>.pdfp\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_3897C9BD0ED69D1EC815F3D684001D18</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_4465AD2966A82ACDB675B16A5E2991CF</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_45C5D4FF74166D6E7D7E1174B96F9968</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_51C7C830A48E87F8443F1C61E61DC6AD</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_5C0D88611433FBB1C82AF86FACA8281A</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_684775AF0E0EE701FF25350B54602679</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_793A456CB6E618C6FFE5830D8264EA93</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_908BC86B6AE8D22BA6E7D340E9105D10</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_9ADAA2F0A164B07EECA00BCCB482CBCD</td><td>2</td><td>SOFTWARE\Wow6432Node\Microsoft\MSIPC\FileProtection\pdf</td><td>Encryption</td><td>Native</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_A0AA23273BC95D9F73803F89FF76DA14</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithList</td><td>a</td><td>FOXIT READER.EXE</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
@@ -4575,7 +4577,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>_D6B8DFE5C44837B0D1C9DA0062FA4FF4</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_DA13B9936F3F1048FEB6F80D76412738</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_DC14143FA751C6CF6417B7BE12873BD3</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_E49B0F1E15A64E099CD4593CBEDC31FA</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_E806230D2A7FCB57D63820E9BF248D5B</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_EAE6D2B98827539D694CD7EA3697E5BE</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_EDC8513AA8BD12DA492793514141A199</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithProgids</td><td>FoxitReader.Document</td><td>#x</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_EDC99695C3EB6CE8D6C1A49CC79DA595</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_EFA712CB44811BACD64CFD036A286E02</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
