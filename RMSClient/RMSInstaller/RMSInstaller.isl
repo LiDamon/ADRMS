@@ -4015,7 +4015,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{E1AFAC99-B6F8-4C7A-9839-4AC6565589DA}</td></row>
 		<row><td>ISUSSignature</td><td>{1313C527-4F7A-49E3-B066-15337C753099}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewSetupTypes,viewSetupDesign,viewRealSetupDesign,viewAppFiles,viewFeatureFiles,viewObjects,viewDependencies,viewRegistry,viewUI,viewTextMessages,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewSupportFiles,viewISToday,viewShortcuts,viewRelease,viewDesignPatches</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewSetupTypes,viewSetupDesign,viewRealSetupDesign,viewAppFiles,viewFeatureFiles,viewObjects,viewDependencies,viewRegistry,viewUI,viewTextMessages,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewSupportFiles,viewISToday,viewShortcuts,viewRelease,viewDesignPatches,viewUpgradePaths</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4485,26 +4485,26 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>Registry29</td><td>0</td><td>PowerPoint.Slide.12\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry3</td><td>0</td><td>Word.Document.12</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
 		<row><td>Registry30</td><td>0</td><td>Word.Document.12\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry31</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry31</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry32</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry33</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry34</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry35</td><td>0</td><td>Word.Document.8\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry36</td><td>0</td><td>Word.Document.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry37</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry37</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry38</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry39</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry4</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry40</td><td>0</td><td>Word.Document.8\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry41</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry42</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry43</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry43</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry44</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry45</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry46</td><td>0</td><td>Excel.Sheet.8\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry47</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry48</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry49</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry49</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry5</td><td>0</td><td>Word.Document.12\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry50</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry51</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
@@ -4512,7 +4512,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>Registry53</td><td>0</td><td>PowerPoint.Slide.8</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
 		<row><td>Registry54</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry55</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry56</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry56</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry57</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry58</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry59</td><td>0</td><td>PowerPoint.SlideShow.8</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
@@ -4520,7 +4520,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>Registry60</td><td>0</td><td>PowerPoint.SlideShow.8\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry61</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry62</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry63</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry63</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry64</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry65</td><td>0</td><td>PowerPoint.Show.8</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>1</td></row>
 		<row><td>Registry66</td><td>0</td><td>PowerPoint.Show.8\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
@@ -4531,27 +4531,54 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>Registry70</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry71</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry72</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry73</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry73</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry74</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry75</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry76</td><td>0</td><td>Excel.Sheet.12\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry77</td><td>0</td><td>PowerPoint.Slide.12\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry78</td><td>0</td><td>PowerPoint.Slide.12\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry78</td><td>0</td><td>PowerPoint.Slide.12\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry79</td><td>0</td><td>PowerPoint.Slide.12\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry8</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry80</td><td>0</td><td>PowerPoint.Slide.12\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry81</td><td>0</td><td>PowerPoint.Slide.12\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry82</td><td>0</td><td>PowerPoint.SlideShow.12\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry83</td><td>0</td><td>PowerPoint.SlideShow.12\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry83</td><td>0</td><td>PowerPoint.SlideShow.12\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry84</td><td>0</td><td>PowerPoint.SlideShow.12\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry85</td><td>0</td><td>PowerPoint.SlideShow.12\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry86</td><td>0</td><td>PowerPoint.SlideShow.12\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry87</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect</td><td/><td/><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
-		<row><td>Registry88</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd1</td><td/><td>KM Content</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>Registry88</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry89</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry9</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry90</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry91</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>_0A558AE1AC79DA2F54DA87807F1F0912</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\UserChoice</td><td>Progid</td><td>FoxitReader.Document</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_1B7C241D6C8682264911BD556A1FD67B</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_25DD3A435C32363EA34248F7B376D7B3</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_34971D1E63DDCEBA5CDED2C742F42C54</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithList</td><td>MRUList</td><td>abc</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_3693B9EC055387811A21C8430FF7D75F</td><td>0</td><td>.pdfp\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_45C5D4FF74166D6E7D7E1174B96F9968</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_5C0D88611433FBB1C82AF86FACA8281A</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_684775AF0E0EE701FF25350B54602679</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_908BC86B6AE8D22BA6E7D340E9105D10</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_A0AA23273BC95D9F73803F89FF76DA14</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithList</td><td>a</td><td>FOXIT READER.EXE</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_A66648D463E10C0D0610A3AB829C144B</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_A94BD20D377456A3BC535A1B5AD7DF77</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_B01C6F5BC86F6363BC2801B069DF0154</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_B32A9BB9A18DF95E1D3BE286636D2F87</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_B80B6F9E3243815F433A5D7191D637EB</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_C22738E8B0F50C5812520BBD3CDED087</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithList</td><td>c</td><td>firefox.exe</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_C794E3D46CC4F085227369A0C7FA98CE</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithList</td><td>b</td><td>chrome.exe</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_D6B8DFE5C44837B0D1C9DA0062FA4FF4</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_DA13B9936F3F1048FEB6F80D76412738</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_DC14143FA751C6CF6417B7BE12873BD3</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_E806230D2A7FCB57D63820E9BF248D5B</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_EDC8513AA8BD12DA492793514141A199</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithProgids</td><td>FoxitReader.Document</td><td>#x</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_EDC99695C3EB6CE8D6C1A49CC79DA595</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_EFA712CB44811BACD64CFD036A286E02</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_EFFFFF7598A18D198CF4E933D041E7DB</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_F01949BA18DB50F15E8925DD3010F991</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_F04D480DE8E219E7833DFDB85ED42BDD</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 	</table>
 
 	<table name="RemoveFile">
