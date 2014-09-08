@@ -4549,34 +4549,59 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>Registry9</td><td>0</td><td>PowerPoint.Slide.8\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry90</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
 		<row><td>Registry91</td><td>0</td><td>PowerPoint.Show.12\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td>0</td></row>
+		<row><td>_041550AE0DBC260CC16E21B69E2E6AA8</td><td>0</td><td>AcroExch.Document.11\shell\Open\command</td><td/><td>"C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AcroRd32.exe" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_05965D3807B4690A002519682A8F3900</td><td>0</td><td>AcroExch.Document.7\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_0A558AE1AC79DA2F54DA87807F1F0912</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\UserChoice</td><td>Progid</td><td>FoxitReader.Document</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_0E3D51C9381780F11FD1D7444D4513F8</td><td>0</td><td>AcroExch.Document.7\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_176F00DDBAF0129D31BA62BA8C3CEBE8</td><td>0</td><td>AcroExch.Document.7\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_1B7C241D6C8682264911BD556A1FD67B</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_25DD3A435C32363EA34248F7B376D7B3</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_2810862F4100FC44F67CC7AC2C38AF53</td><td>0</td><td>.pdf\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_2C1E59EA240D3934E1CAF29CEE1E30C3</td><td>2</td><td>SOFTWARE\Microsoft\MSIPC\FileProtection\pdf</td><td>Encryption</td><td>Native</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_2D3CEFDBF7AB861E3FE770F3EC52B190</td><td>0</td><td>AcroExch.Document\Shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_33D06D301BF5D1A2A2285E8535B96DFF</td><td>0</td><td>AcroExch.Document.11\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_34971D1E63DDCEBA5CDED2C742F42C54</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithList</td><td>MRUList</td><td>abc</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_3693B9EC055387811A21C8430FF7D75F</td><td>0</td><td>.pdfp\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_3897C9BD0ED69D1EC815F3D684001D18</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_3AA9DAD5EB9C1AC98B4C9C81BCAFA4C1</td><td>0</td><td>AcroExch.Document.11\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_40030E3BD3931D531F0FC6A4566B2139</td><td>0</td><td>AcroExch.Document.11\shell\Read</td><td/><td>Open with Adobe Reader XI</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_4465AD2966A82ACDB675B16A5E2991CF</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_45C5D4FF74166D6E7D7E1174B96F9968</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_51C7C830A48E87F8443F1C61E61DC6AD</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_537E040EA5D9D972437D758044A42698</td><td>0</td><td>AcroExch.Document\Shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_590D77BB3586AB63863FD87DF3C965C9</td><td>0</td><td>AcroExch.Document.11\shell</td><td/><td>Read</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_5930602ABF42710A38C52A0DE1063A1E</td><td>0</td><td>AcroExch.Document.7\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_5C0D88611433FBB1C82AF86FACA8281A</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_5DDD69B2E43D864E4B2B2714400CB260</td><td>0</td><td>AcroExch.Document\Shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_684775AF0E0EE701FF25350B54602679</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_793A456CB6E618C6FFE5830D8264EA93</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_7E390A0D1A753B5C28648703C8A7F14B</td><td>0</td><td>AcroExch.Document.11\shell\Read\command</td><td/><td>"C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AcroRd32.exe" "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_908BC86B6AE8D22BA6E7D340E9105D10</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_966053F14950D183709C9389BFAD1E86</td><td>0</td><td>AcroExch.Document.11\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_9ADAA2F0A164B07EECA00BCCB482CBCD</td><td>2</td><td>SOFTWARE\Wow6432Node\Microsoft\MSIPC\FileProtection\pdf</td><td>Encryption</td><td>Native</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_A0AA23273BC95D9F73803F89FF76DA14</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithList</td><td>a</td><td>FOXIT READER.EXE</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_A213B4FDB0266A7241306E5265143FC2</td><td>0</td><td>AcroExch.Document.11\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_A2E4D114961CAFE91D5E849C85ECDAC7</td><td>0</td><td>AcroExch.Document.11\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_A32F45FFFB984EF66C77622F4379E07F</td><td>0</td><td>AcroExch.Document\Shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_A5033685B99EC37C8508FBAA7FAF7E52</td><td>0</td><td>AcroExch.Document.11\shell\Printto\command</td><td/><td>"C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AcroRd32.exe" /t "%1" "%2" "%3" "%4"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_A65278FEE93D89E847D69FC0F6363507</td><td>0</td><td>AcroExch.Document.11\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_A66648D463E10C0D0610A3AB829C144B</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_A94BD20D377456A3BC535A1B5AD7DF77</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_ADB4B93E10C9441E51E5F1069C63731F</td><td>2</td><td>SOFTWARE\Microsoft\MSIPC\FileProtection\pdfp</td><td>Encryption</td><td>Native</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_B01C6F5BC86F6363BC2801B069DF0154</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_B32A9BB9A18DF95E1D3BE286636D2F87</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_B40CB3E06ADD7DFEC965811805D23D41</td><td>0</td><td>AcroExch.Document.7\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_B73E1F66A0015FF931845AB8BFB568BF</td><td>0</td><td>AcroExch.Document.7\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_B80B6F9E3243815F433A5D7191D637EB</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_C22738E8B0F50C5812520BBD3CDED087</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithList</td><td>c</td><td>firefox.exe</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_C794E3D46CC4F085227369A0C7FA98CE</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.pdfp\OpenWithList</td><td>b</td><td>chrome.exe</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_CD5EE7F04ACAEC5EBCB0B9D210506B96</td><td>0</td><td>AcroExch.Document.11\shell\CCC Protect\shell\cmd2</td><td/><td>File Info</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_CE0B18C52344FFCB5D27269507D02953</td><td>0</td><td>AcroExch.Document.7\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_D6B8DFE5C44837B0D1C9DA0062FA4FF4</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_DA13B9936F3F1048FEB6F80D76412738</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd2\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-i"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_DC14143FA751C6CF6417B7BE12873BD3</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_DF5E840B6F96AF494B5213E6A8607FC4</td><td>0</td><td>AcroExch.Document\Shell\CCC Protect</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_E335AC5B719961D91A222E8B1DC63E06</td><td>0</td><td>AcroExch.Document.11\shell\Print\command</td><td/><td>"C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AcroRd32.exe" /p /h "%1"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_E49B0F1E15A64E099CD4593CBEDC31FA</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd3\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "unprotect"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_E806230D2A7FCB57D63820E9BF248D5B</td><td>0</td><td>FoxitReader.FDFDoc\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_EAE6D2B98827539D694CD7EA3697E5BE</td><td>0</td><td>.pdf\shell\CCC Protect\shell\cmd1</td><td/><td>Fanous</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
@@ -4587,6 +4612,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>_F01949BA18DB50F15E8925DD3010F991</td><td>0</td><td>FoxitReader.Document\shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_F04D480DE8E219E7833DFDB85ED42BDD</td><td>0</td><td>.pdfp\shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 		<row><td>_F2E40AB40C3FE73C706D6D61366D3C08</td><td>2</td><td>SOFTWARE\Wow6432Node\Microsoft\MSIPC\FileProtection\pdfp</td><td>Encryption</td><td>Native</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_F3BBD0D768BA988141A18C39B99F7371</td><td>0</td><td>AcroExch.Document\Shell\CCC Protect\shell\cmd3</td><td/><td>Unprotect</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
+		<row><td>_F69BED7C2BFFC782AF9D25042A61F800</td><td>0</td><td>AcroExch.Document\Shell\CCC Protect\shell\cmd1\command</td><td/><td>"C:\Program Files (x86)\CCC RMS Protector\RMSClient.exe" "-f" "%1" "-a" "protect" "-t" "Fanous-Default"</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 	</table>
 
 	<table name="RemoveFile">
